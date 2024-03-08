@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header h1 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .profile-header p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .profile-header .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #555;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #007bff;
+        }
+        .bio {
+            margin-bottom: 30px;
+        }
+        .bio p {
+            color: #333;
+            line-height: 1.6;
+        }
+        .interests {
+            margin-bottom: 30px;
+        }
+        .interests ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .interests li {
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .home-btn {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .home-btn a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 2px solid #007bff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .home-btn a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+            <img src="user_icon.png" alt="Profile Picture">
+            <h1>Intel Gamer</h1>
+            <p>Email: gunique885@gmail.com</p>
+            <p>Location: Ahmedabad, India</p>
+            <div class="social-links">
+                <a href="https://www.youtube.com/channel/UCUO1ck-4L1SZgbr8RXabeYQ"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61552056249089"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/binary.bard.since.2007/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/techpinnacles"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="home-btn">
+            <a href="/">Home</a>
+        </div>
+        <div class="bio">
+            <h2>Bio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed eget ligula ac libero suscipit tristique. Sed eget gravida purus, id dignissim turpis.</p>
+        </div>
+        <div class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>React Js</li>
+                <li>PHP</li>
+                <li>JAVA Script</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
