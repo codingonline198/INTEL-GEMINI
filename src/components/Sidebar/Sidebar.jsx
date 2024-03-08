@@ -39,16 +39,16 @@ const Sidebar = () => {
       </div>
       <div className="bottom">
         <div className="bottom-item recent-entry">
-          <a href="termsandcondition.html"><img src={assets.question_icon} alt="" /></a>
-          <a href="termsandcondition.html">{extended?<p>Terms and Conditions</p>:null}</a>
+          <img src={assets.question_icon} alt="" />
+          {extended?<p>Help</p>:null}
         </div>
         <div className="bottom-item recent-entry">
           <img src={assets.history_icon} alt="" />
           {extended?<p>History</p>:null}
         </div>
         <div className="bottom-item recent-entry">
-          <a href="PrivacyPolicy.html"><img src={assets.setting_icon} alt="" /></a>
-          <a href="PrivacyPolicy.html">{extended?<p>Privacy Policy</p>:null}</a>
+          <img src={assets.setting_icon} alt="" />
+          {extended?<p>Setting</p>:null}
         </div>
       </div>
     </div>
